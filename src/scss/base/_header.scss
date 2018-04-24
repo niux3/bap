@@ -1,0 +1,28 @@
+header{
+    background-color: #{map-get($couleurs, black4)};
+    border-bottom: .1rem solid #{map-get($couleurs, black10)};
+    padding: 6.4rem 0 0 0;
+
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        li{
+            a{
+                border-top: .3rem solid transparent;border-radius: 0rem;
+                background-color: transparent;color: #{map-get($couleurs, black70)};
+                padding: 1.6rem 2.4rem;margin: 0 1rem 0 0;
+                position: relative;bottom: -.5rem;
+                font-size: 2rem;text-decoration: none !important; display: block;
+                cursor: pointer;@extend .bold;
+
+                &.current{
+                    border-top: .3rem solid #{map-get($couleurs, red)};border-radius: 0rem;
+                    background-color: #{map-get($couleurs, white)};
+                }
+            }
+        }
+
+    }
+}

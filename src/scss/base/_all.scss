@@ -1,0 +1,76 @@
+html{
+    font-size: 62.5%;
+
+    *{
+        outline: none !important;
+        &:focus{
+            outline: none !important;
+        }
+    }
+    body{
+        font-size: #{$fz}; font-family: #{$ff};
+        background-color: #{map-get($couleurs, white)}; color: #{map-get($couleurs, black70)};
+
+        @for $i from 1 through 6{
+            h#{$i},
+            .h#{$i}-like{
+                font-family: #{$ff};
+            }
+        }
+        .bold, strong{
+            font-weight: bold; font-family: #{$ff};
+        }
+
+        em, i, .italic, .i, .em{
+            font-style: normal;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        @each $k, $v in (t : top,r : right,b : bottom,l : left){
+            .m#{$k}25{
+                margin-#{$v}: 2.5rem;
+            }
+
+            .m#{$k}50{
+                margin-#{$v}: 5rem;
+            }
+
+            .p#{$k}25{
+                margin-#{$v}: 2.5rem;
+            }
+
+            .p#{$k}50{
+                margin-#{$v}: 5rem;
+            }
+
+            .bd#{$k}{
+                border-#{$v}: .1rem solid #{map-get($couleurs, black10)};
+            }
+        }
+
+
+
+        .maw96{
+            max-width: 96rem;
+            width: 100%;
+        }
+        .center{
+            margin: 0 auto;
+        }
+
+        .global{
+            @extend .maw96;
+            @extend .center;
+        }
+        .hidden{
+            display: none;
+        }
+
+        //structure
+        main{
+        }
+    }
+}

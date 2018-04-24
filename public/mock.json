@@ -1,0 +1,79 @@
+{
+    "A" : [
+        [
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"]
+        ],
+        [
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"]
+        ]
+    ],
+
+    "B" : [
+        [
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"]
+        ],
+        [
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"]
+        ],
+        [
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"],
+            ["Shower", "Sink"]
+        ]
+    ],
+
+    "C" : [
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ]
+    ],
+
+    "D" : [
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink", "Jacuzzi"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ],
+        [
+            ["Bath", "Sink", "Sink"],
+            ["Bath", "Sink", "Sink"]
+        ]
+    ]
+}
